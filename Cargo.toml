@@ -1,0 +1,13 @@
+[package]
+name = "hellbender-core"
+version = "0.1.0"
+authors = ["Sebastian Woetzel <wose@zuendmasse.de>"]
+
+build = "build.rs"
+
+[build-dependencies]
+capnpc = "0.8"
+
+[dependencies]
+capnp = "0.8"
+capnp-rpc = "0.8"
